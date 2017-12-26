@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+require_once(__DIR__ . '/../bootstrap/autoload.php');
+
+use App\Commands\CheckBracketCommand;
+use Symfony\Component\Console\Application;
+use Menshov\BracketMatch;
+
+$application = new Application();
+
+$application->add(new CheckBracketCommand());
+
+$application->run();

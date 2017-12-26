@@ -1,0 +1,6 @@
+{
+    "require": {
+        "xpohoc269/bracket-cheker": "dev-master",
+        "symfony/console": "^3.4"
+    }
+}
